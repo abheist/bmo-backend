@@ -112,6 +112,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_ADAPTER = 'api.adapter.DefaultAccountAdapterCustom'
 URL_FRONT = 'http://localhost:4200/'
 ACCOUNT_CONFIRM_EMAIL_ON_GET = True
+CONFIRM_EMAIL_ON_GET = True
+LOGIN_URL = 'http://localhost:4200/'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
