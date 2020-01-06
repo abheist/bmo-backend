@@ -108,6 +108,10 @@ REST_FRAMEWORK = {
 }
 
 WSGI_APPLICATION = 'bmo.wsgi.application'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ACCOUNT_ADAPTER = 'api.adapter.DefaultAccountAdapterCustom'
+URL_FRONT = 'http://localhost:4200/'
+ACCOUNT_CONFIRM_EMAIL_ON_GET = True
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
