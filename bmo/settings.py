@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'rest_auth.registration',
     'api.apps.ApiConfig',
     'django_countries',
+    'django_extensions',
 ]
 
 SITE_ID = 1

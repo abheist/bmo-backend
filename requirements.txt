@@ -8,6 +8,7 @@ Django==3.0.1
 django-allauth==0.41.0
 django-cors-headers==3.2.0
 django-countries==5.5
+django-extensions==2.2.5
 django-rest-auth==0.9.5
 djangorestframework==3.11.0
 idna==2.8
@@ -32,3 +33,4 @@ sqlparse==0.3.0
 traitlets==4.3.3
 urllib3==1.25.7
 wcwidth==0.1.8
+Werkzeug==0.16.0
