@@ -6,7 +6,10 @@ from api.serializers.UserSerializer import UserSerializer
 
 
 class UserList(ListCreateAPIView):
-    queryset = User.objects.all()
+    def get_queryset(self):
+        # todo: list should go acc. to user type
+        return User.objects.all()
+
     serializer_class = UserSerializer
 
 
