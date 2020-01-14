@@ -1,1 +1,1 @@
-web: gunicorn bmo.wsgi --log-file -
+web: gunicorn bmo.wsgi
