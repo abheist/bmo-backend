@@ -628,3 +628,4 @@ pip-selfcheck.json
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 
 # End of https://www.gitignore.io/api/node,venv,python,dotenv,django,pycharm,intellij,virtualenv,pycharm+all,pycharm+iml,intellij+all,intellij+iml
+.env
